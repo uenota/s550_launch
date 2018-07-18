@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="base_to_lidar" type="static_transform_publisher" pkg="tf" args="0 0 0.1 0 0 0 base_link lidar_link 100" />
+
+</launch>

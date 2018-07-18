@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find s550_launch)/launch/urg_lidar.launch" />
+    <include file="$(find s550_launch)/launch/s550_static_tf.launch" />
+    <include file="$(find s550_launch)/launch/px4.launch" />
+
+</launch>
